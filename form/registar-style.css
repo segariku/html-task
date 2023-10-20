@@ -1,0 +1,27 @@
+@charset "utf-8";
+fieldset{
+    width: 800px;
+}
+
+.hissu{
+    color: white;
+    background-color: red;
+    font-size: 7px;
+}
+
+fieldset{
+    background-color: yellowgreen;
+}
+
+b,d{
+    text-align: left;
+    vertical-align: top;
+}
+
+.zisuu{
+    font-size: 7px;
+}
+
+.koumoku{
+    background-color: pink;
+}
