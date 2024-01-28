@@ -10,29 +10,29 @@
     <p>必要事項を入力の上、送信してください。</p>
       <fieldset>
      <d class="koumoku">ID<a class="hissu"> 必須</a>(メールアドレス)</d>
-     <input type="email" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
+     <input type="email" name="mail" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
     </fieldset>
       <fieldset><e class="koumoku">パスワード<a class="hissu">必須</a><c class="nyuuryoku">(半角英数字8文字以上)</c></e>
-    <input type="password" size="30" minlength="8">
+    <input type="password" name="password" size="30" minlength="8">
     <label>
     <input type="checkbox" name="hyoji">パスワードを表示する
    </label>
    </fieldset>
     <fieldset>
     <d class="koumoku">氏名<a class="hissu"> 必須</a></d>
-    姓:<input type="text" placeholder="例:盛岡" required>
-    名:<input type="text" placeholder="例:太郎" required>
+    姓:<input type="text" name="sei" placeholder="例:盛岡" required>
+    名:<input type="text" name="mei" placeholder="例:太郎" required>
     </fieldset>
    <fieldset>
    <d class="koumoku">住所</d>
    〒<input type="text" name="number" size="8" placeholder="020-0021" readonly><br>
        <input type="text" name="zyusyo" placeholder="岩手県盛岡市中央通3丁目" readonly ><br>
-       <input type="text" size="30" placeholder="番地"><br>
-       <input type="text" size="30" placeholder="建物名">
+       <input type="text" name="banchi" size="30" placeholder="番地"><br>
+       <input type="text" name="tatemono" size="30" placeholder="建物名">
     </fieldset>
     <fieldset>
       <d class="koumoku">携帯電話番号<a class="hissu">必須</a></d>
-        <input type="tel" required>
+        <input type="tel" name="tel" required>
     </fieldset>
     <fieldset>
       <d class="koumoku">学科・学年<a class="hissu">必須</a></d>
